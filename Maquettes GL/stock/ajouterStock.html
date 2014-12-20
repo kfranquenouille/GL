@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+
+    <head>
+        <meta content="text/html;charset=ISO-8859-1" http-equiv="Content-Type">
+        <title>Hypermarch&eacute; du futur</title>
+        <meta content="Radhieddine" name="author">
+    </head>
+
+    <body>
+
+        	<h1>Formulaire de cr&eacute;ation de stock</h1>
+        <br>
+         <table style="text-align: left; width: 100%;" border="1"
+ cellpadding="2" cellspacing="2">
+    <tbody>
+      <tr>
+        <td style="vertical-align: top;">Intiul&eacute; du produit</td>
+        <td style="vertical-align: top;"><input name="nom"><br>
+      </tr>
+      <tr>
+        <td style="vertical-align: top;">Quantit&eacute;</td>
+        <td style="vertical-align: top;"><input name="quantite"><br>
+      </tr>
+      <tr>
+        <td style="vertical-align: top;">Prix unitaire </td>
+        <td style="vertical-align: top;"><input name="prixUnitaire"><br>
+      </tr>
+   <tr>
+        <td style="vertical-align: top;">Date d'expiration</td>
+        <td style="vertical-align: top;"><input name="date"><br>
+      </tr>
+      <tr>
+        <td style="vertical-align: top;">Commentaires Suppl&eacute;mentaires</td>
+        <td style="vertical-align: top;"><input name="CommsSupp"><br>
+      </tr>
+   
+    </tbody>
+  </table>
+        <br>
+        <input type="button" name="validationIncorrecte" value="valider formulaire incorrect" onclick="self.location.href='ajouterStock-error.html'"> 
+        <input type="button" name="validationCorrecte" value="valider formulaire correct" onclick="self.location.href='ValiderAjoutStock.html'"> 
+		<input type="button" name="annuler" value="annuler" onclick="self.location.href='../gererLesStocks.html'"> 
+    </body>
+
+</html>

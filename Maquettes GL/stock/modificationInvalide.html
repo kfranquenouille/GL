@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+
+    <head>
+        <meta content="text/html;charset=ISO-8859-1" http-equiv="Content-Type">
+        <title>Hypermarch&eacute; du futur</title>
+        <meta content="Delphine" name="author">
+    </head>
+
+    <body>
+        	<h1>Liste des missions disponibles</h1>
+        <br>
+
+        <h3>Quelle mission voulez-vous modifier ?</h3>
+          <table style="text-align: left; width: 100%;" border="1"
+ cellpadding="2" cellspacing="2">
+    <tbody>
+       <tr>
+        <td style="vertical-align: top;">Crit&egrave;res</td>
+        <td style="vertical-align: top;">Pr&eacute;remplis par :</td>
+        <td style="vertical-align: top;">A remplacer par :</td>
+      </tr>
+      <tr>
+        <td style="vertical-align: top;">Nom</td>
+        <td style="vertical-align: top;">Nos amis &agrave; 4 pattes !</td>
+        <td style="vertical-align: top;"><input name="nom"><br>
+      </tr>
+      <tr>
+        <td style="vertical-align: top;">Cr&eacute;dits</td>
+        <td style="vertical-align: top;">15 cr&eacute;dits</td>
+        <td style="vertical-align: top;"><input name="credits"><br>
+      </tr>
+      <tr>
+        <td style="vertical-align: top;">Date de validit&eacute;</td>
+        <td style="vertical-align: top;">15/12/2014</td>
+        <td style="vertical-align: top;"><input name="date"><br>
+        <span style="color: rgb(255, 0, 0);">Format de date incorrect !</span><br>
+
+      </tr>
+    </tbody>
+  </table>
+        <br>
+       	<input type="button" name="modifier" value="modifier formulaire correct" onclick="self.location.href='modificationValidee.html'"> 
+       	<input type="button" name="modification invalide" value="modifier formulaire incorrect" onclick="self.location.href='modificationInvalide.html'"> 
+        <input type="button" name="annuler" value="annuler" onclick="self.location.href='../gererLesStocks.html'"> 
+    </body>
+
+</html>

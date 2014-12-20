@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<title>Supermarché du futur</title>
+	<style>
+		td {
+			width: 100px;
+		}
+		img {
+			cursor: pointer;
+		}
+	</style>
+</head>
+<body>
+	<div>
+		<img src="img/hypermarche.png">
+		<br>
+		<img src="img/future.png">
+	</div>
+	<h1>Gérer publicité</h1>
+	<h2>Fiche produit : Pomme</h2>
+	<h3>Voici la liste des publicités associées</h3>
+	<table>
+		<tr>
+			<td>publicité 1</td><td><img src="img/supr.png" onclick="return(confirm('Etes-vous sûr de vouloir supprimer cette publicité ?'));" ></td>
+		</tr>
+		<tr>
+			<td>publicité 2</td><td><img src="img/supr.png" onclick="return(confirm('Etes-vous sûr de vouloir supprimer cette publicité ?'));"></td>
+		</tr>
+	</table>
+	<div style="clear:both"></div>
+	<br>
+	<input type="button" value="Retour" onclick="window.history.back()">
+	<input type="button" value="Ajouter une publicité" onclick="self.location.href='ajouter_publicite.html'">
+</body>
+</html>

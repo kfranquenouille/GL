@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+
+    <head>
+        <meta content="text/html;charset=ISO-8859-1" http-equiv="Content-Type">
+        <title>Hypermarch&eacute; du futur</title>
+        <meta content="Radhieddine" name="author">
+	
+	<script type="text/javascript">
+        function demanderConf() {
+                alert("Vous confirmer l'envoi de l'alerte pour ce poduit ?");
+    			        }
+		function confirmerEnvoi() {
+                alert("Alerte bien envoyee, le produit sera approvisionne au plus bref delai");
+					}
+		function alerteNonValidee(){
+				alert("Le produit est deja signale ou n'est pas disponible dans le magasin pour le moment");
+			}
+
+        </script>
+
+    </head>
+
+    <body>
+
+        	<h1 style="color:IndianRed;"> Rayon Alimentaire</h1>
+	<h2 style="color:SteelBlue;"> S&eacute;lectionnez le produit concern&eacute;</h2>
+
+<FORM>
+<INPUT type="checkbox" name="choix1" value="1"> <h3> Pates Panzani 1kg</h3>
+<INPUT type="checkbox" name="choix2" value="2"> <h3> Sauce Tomate 50cl</h3>
+<INPUT type="checkbox" name="choix3" value="3"> <h3> Riz Basmati 500g</h3>
+
+</FORM>
+       
+  		<input type="button" name="alerteValidee" value="Alerte valid&eacute;e" onclick=" demanderConf(); confirmerEnvoi();self.location.href='../Client.html'"> 
+		<input type="button" name="alerteNonValidee" value="Alerte non valid&eacute;e" onclick=" alerteNonValidee();self.location.href='../Client.html'"> 
+		<input type="button" name="annuler" value="annuler et retourner &agrave; l'accueil" onclick="self.location.href='../Client.html'"> 
+
+    </body>
+
+</html>

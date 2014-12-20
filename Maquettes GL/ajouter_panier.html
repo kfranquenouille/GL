@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<title>Supermarché du futur</title>
+	<style>
+		td, th {
+			border:1px solid; border-collapse:collapse
+		}
+	</style>
+</head>
+<body>
+	<div>
+		<img src="img/hypermarche.png">
+		<br>
+		<img src="img/future.png">
+	</div>
+	<h1>Essayer vêtements virtuellement</h1>
+	<h2>Votre panier</h2>
+	<table style="border:1px solid; border-collapse:collapse">
+		<tr>
+			<th>Article(s)</th>
+			<th>Prix unitaire</th>
+			<th>Quantité</th>
+			<th>Prix total</th>
+		</tr>
+		<tr>
+			<td>T-shirt Col V</td>
+			<td>20€</td>
+			<td>1</td>
+			<td>20€</td>
+		</tr>
+		<tr>
+			<td>Jean Levis</td>
+			<td>110€</td>
+			<td>2</td>
+			<td>220€</td>
+		</tr>
+	</table>
+	<br>
+	<input type="button" value="Retour" onclick="window.history.back()">
+	<input type="button" value="Passer en caisse" onclick="self.location.href='ticket_de_caisse.html'"> 
+</body>
+</html>

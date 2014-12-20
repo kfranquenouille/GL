@@ -1,0 +1,25 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+	<head>
+	  	<meta content="text/html;charset=ISO-8859-1" http-equiv="Content-Type">
+	  	<title>Moyen de paiement</title>
+	  	<meta content="Kevin Franquenouille" name="author">
+	  	<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<br>
+		<div>
+			<img src="img/hypermarche.png">
+			<br>
+			<img src="img/future.png">
+		</div>
+		<h1>Poser votre carte bancaire</h1>
+		<br>
+		<div>
+			<input type="image" name="check" src="img/check.png" onclick="alert('Votre compte a bien &eacute;t&eacute; d&eacute;bit&eacute; !');self.location.href='Client.html'">
+			<input type="image" height="107px" name="error" src="img/error.png" onclick="alert('Solde insuffisant !');self.location.href='ModePaiement.html'">
+		</div>
+		<br>
+		<input type="button" name="Retour" value="Retour" onclick="self.location.href='ModePaiement.html'"> 
+	</body>
+</html>

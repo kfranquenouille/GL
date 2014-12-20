@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+
+    <head>
+        <meta content="text/html;charset=ISO-8859-1" http-equiv="Content-Type">
+        <title>Hypermarch&eacute; du futur</title>
+        <meta content="Delphine" name="author">
+    </head>
+
+    <body>
+
+        	<h1>Formulaire de cr&eacute;ation de mission</h1>
+        <br>
+         <table style="text-align: left; width: 100%;" border="1"
+ cellpadding="2" cellspacing="2">
+    <tbody>
+      <tr>
+        <td style="vertical-align: top;">Nom de la mission</td>
+        <td style="vertical-align: top;"><input name="nom"><br>
+      </tr>
+      <tr>
+        <td style="vertical-align: top;">Nombre de cr&eacute;dits</td>
+        <td style="vertical-align: top;"><input name="credits"><br>
+      </tr>
+      <tr>
+        <td style="vertical-align: top;">Description de la mission</td>
+        <td style="vertical-align: top;"><input name="description de la mission"><br>
+      </tr>
+      <tr>
+        <td style="vertical-align: top;">Description des photos</td>
+        <td style="vertical-align: top;"><input name="description des photos"><br>
+      </tr>
+      <tr>
+        <td style="vertical-align: top;">Date de validit&eacute;</td>
+        <td style="vertical-align: top;"><input name="date"><br>
+      </tr>
+    </tbody>
+  </table>
+        <br>
+        <input type="button" name="validationIncorrecte" value="valider formulaire incorrect" onclick="self.location.href='creerMission-error.html'"> 
+        <input type="button" name="validationCorrecte" value="valider formulaire correct" onclick="self.location.href='missionCree.html'"> 
+		<input type="button" name="annuler" value="annuler" onclick="self.location.href='indexAdministrateurMissions.html'"> 
+    </body>
+
+</html>
